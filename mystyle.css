@@ -1,0 +1,404 @@
+div#carouselExampleCaptions.my-hero-sec .carousel-item img {
+    width: 100% !important;
+    height: 97vh !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+nav#my-nav {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    background: #00000036 !important;
+    z-index: 9;
+}
+nav#my-nav .container-fluid {
+    width: 100% !important;
+    max-width: 1300px !important;
+}
+nav#my-nav li.nav-item a {
+    color: #fff !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+nav#my-nav li.nav-item a.active, nav#my-nav li.nav-item a:hover {
+    color: #a89d8e !important;
+}
+nav#my-nav div#navbarSupportedContent ul.navbar-nav {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+div.my-hero-sec .carousel-caption {
+    position: absolute !important;
+    top: 50%;
+    left: 15%;
+    display: flex !important;
+    /* transform: translateY(calc(-50% + 76px)); */
+    transform: translateY(-50%);
+    flex-direction: column !important;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+}
+div.my-hero-sec .carousel-item {
+    position: relative !important;
+}
+div.my-hero-sec .carousel-caption h5 {
+    font-family: 'Montserrat' !important;
+    font-weight: 700;
+    font-size: 50px;
+}
+div.my-hero-sec .carousel-caption p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    letter-spacing: .5px;
+}
+div#carouselExampleCaptions.my-hero-sec .carousel-caption img {
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    margin-bottom: 25px !important;
+}
+div.my-hero-sec div.carousel-caption#active-image {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.my-hero-sec div.carousel-caption#active-image img {
+    object-position: bottom center !important;
+}
+div#carouselExampleCaptions.my-hero-sec .carousel-caption#active-image img{
+        height: 100px;
+}
+div.my-hero-sec div.carousel-caption#active-image span {
+    font-family: 'Poppins';
+}
+div.my-hero-sec .carousel-caption h5 {
+    font-size: 40px !important;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+div.my-hero-sec div.carousel-caption#active-image h5 {
+    font-size: 70px !important;
+}
+section#about {
+    padding: 60px 0 !important;
+    height: auto !important;
+}
+section#inner-sec {
+    width: 100% !important;
+    max-width: 1250px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    margin: auto !important;
+    gap: 40px;
+}
+section#inner-sec .col {
+    width: 60% !important;
+}
+section#inner-sec .col-1 img {
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: cover;
+    object-position: bottom right !important;
+    border-radius: 10px !important;
+    box-shadow: 0 0 10px -2px #a89d8e !important;
+}
+.heading {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 30px;
+}
+.heading h3 {
+    font-family: 'Poppins' !important;
+    font-size: 18px;
+    font-weight: 600 !important;
+    color: #a89d8e !important;
+    margin: 0 !important;
+}
+.heading h2 {
+    font-family: 'Montserrat' !important;
+    font-size: 50px;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+}
+section#inner-sec .col.col-1 {
+    width: 30% !important;
+}
+button.mybtn {
+    width: 200px;
+    border-radius: 10px;
+    height: 55px;
+    background: #a89d8e !important;
+    border: unset;
+    color: #fff !important;
+    font-family: 'Montserrat' !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease;
+}
+button.mybtn:hover {
+    box-shadow: 0 0 10px 2px #a89d8e !important;
+}
+section#about p {
+    font-family: 'Poppins' !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 26px !important;
+    margin-bottom: 30px !important;
+}
+section#about .col h2 {
+    font-family: 'Poppins' !important;
+    font-weight: 600 !important;
+    margin-bottom: 20px !important;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.under-line:before,.under-line:after {
+    content: '';
+    background: #a89d8e !important;
+    width: 100px;
+    height: 3px;
+    border-radius: 50px;
+    position: absolute;
+    left: 0 !important;
+    bottom: 0 !important;
+}
+.under-line:before {
+    left: 110px !important;
+    width: 10px;
+    border-radius: 50%;
+    height: 10px;
+    bottom: -2.8px !important;
+}
+.heading {
+    margin-bottom: 50px !important;
+}
+#cta{
+    background-image: linear-gradient(#00000050,#00000050), url('asset/team-before-bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#cta section#inner-sec {
+    flex-direction: column !important;
+}
+
+section#cta {
+    padding: 60px 0 !important;
+}
+
+section#cta section#inner-sec h2 {
+    font-family: 'Montserrat' !important;
+    font-weight: 800 !important;
+    color: #fff !important;
+    font-size: 50px;
+}
+
+section#cta p {
+    color: #fff !important;
+    font-family: 'Poppins' !important;
+    line-height: 26px !important;
+    text-align: center;
+    margin: 0 20px !important;
+}
+#cta section#inner-sec {
+    display: block !important;
+}
+
+#cta section#inner-sec h2 {
+    text-align: center;
+    margin-bottom: 10px !important;
+}
+
+#cta section#inner-sec button.mybtn {
+    display: table;
+    margin: 20px auto 0 auto !important;
+}
+
+
+.card-background {
+    margin: 0 !important;
+    padding: 60px 0;
+}
+.card-background .card-section-txt {
+    margin-top: 0 !important;
+}
+.card-background .card-section-txt h3 {
+    display: block !important;
+    font-size: 18px !important;
+    color: #d06a22 !important;
+    margin: 0 !important;
+    font-family: 'poppins';
+    font-weight: 600 !important;
+}
+.card-background .card-section-txt {
+    flex-direction: column !important;
+}
+.card-background .card-section-txt h2 {
+    font-size: 40px !important;
+    font-family: 'Urbanist'  !important;
+    font-weight: 900 !important;
+}
+.card-background .card-group {
+    width: 100% !important;
+    max-width: 1250px !important;
+    margin: auto !important;
+    gap: 30px !important;
+}
+.card-background .card-group .card {
+    border-radius: 15px !important;
+    overflow: hidden !important;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.12);
+    padding: 15px;
+}
+.card-background .card-group .card img {
+    width: 100% !important;
+    height: 250px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.12);
+}
+.card-background .card-group .card .card-body h5.card-title {
+    font-family: 'Urbanist' !important;
+    font-weight: 700 !important;
+    font-size: 25px !important;
+    margin: 10px 0 !important;
+}
+.card-background .card-group .card .card-body p {
+    font-family: 'Poppins' !important;
+}
+.card-background .card-group .card .card-body p.card-text {
+    font-size: 16px !important;
+}
+.card-background .card-group .card .card-body p.card-text small {
+    color: #d06a22 !important;
+}
+.card-background {
+    height: auto !important;
+    min-height: 100vh !important;
+}
+.card-background {
+    width: 100% !important;
+    max-width: 1150px !important;
+    margin: auto !important;
+}
+.card-background .card-section-txt {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 40px !important;
+}
+.card-background .card-section-txt h2 {
+    font-family: 'Montserrat' !important;
+    font-size: 50px;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    font-weight: 900 !important;
+}
+
+.card-background .card-section-txt h3 {
+    font-family: 'Poppins' !important;
+    font-size: 18px;
+    font-weight: 600 !important;
+    color: #a89d8e !important;
+    margin: 0 !important;
+}
+
+.card-background .card-group .card .card-body h5.card-title {
+    font-family: 'Montserrat' !important;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    
+}
+
+.card-background .card-group .card .card-body p.card-text small {
+    color: #a89d8e !important;
+    text-shadow: 0 0 2px #a89d8e !important;
+}
+.card-background .card-group .card img {
+    object-fit: cover !important;
+    object-position: center;
+}
+section#about {
+    position: relative;
+}
+div#page {
+    overflow: hidden !important;
+}
+section#about:before {
+    content: '';
+    background-image: url(asset/h1_img1.png);
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    position: absolute;
+    top: 0 !important;
+    right: 0 !important;
+    width: 300px;
+    height: 300px;
+}
+section#about:before {
+    width: 200px !important;
+    height: 200px;
+    transform: rotate(-45deg);
+    opacity: 0.6;
+}
+section#footer {
+    width: 100% !important;
+    background: #a89d8e !important;
+    box-shadow: -10px 0 10px 1px  #a89d8e;
+}
+
+section#footer section#inner-section {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+section#footer section#inner-section .col {
+    width: 33.33% !important;
+}
+
+section#footer section#inner-section p {
+    margin: 0 !important;
+}
+
+section#footer section#inner-section .col p {
+    font-family: 'Poppins' !important;
+    color: #fff !important;
+    font-size: 14px !important;
+}
+
+section#footer section#inner-section .col.col-3 p {
+    text-align: end !important;
+}
+
+section#footer section#inner-section .col.col-2 {
+    text-align: center !important;
+}
+
+section#footer section#inner-section {
+    padding: 10px !important;
+    width: 100% !important;
+    max-width: 1250px !important;
+    margin: auto !important;
+}
+
+section#footer section#inner-section img {
+    width: 100% !important;
+    height: 50px !important;
+    object-fit: contain !important;
+    object-position: center !important;
+}
+
+section#footer a {text-decoration: none !important;}
